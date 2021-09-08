@@ -16,6 +16,41 @@
   text-decoration: underline;
 }
 
+.contact__dropdown-item{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  padding: 15px 15px;
+  background: #EDEDED;
+  color: #1E1F20;
+  top: 32px;
+  visibility: hidden; 
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.contact__dropdown-item::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 15px;
+  background: #EDEDED;
+  top: -14px;
+  right: 40px;
+  position: absolute;
+  clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+}
+
+.contact__dropdown-title:hover .contact__dropdown-item{
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .contact__desc{
   font-weight: normal;
