@@ -1,0 +1,23 @@
+.section{
+  margin-bottom: 121px;
+    
+}
+
+.section__top{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 51px;
+}
+
+
+.section__title{
+  margin-right: 12px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.section__flame{
+  width: 21px;
+  height: 28px;
+}

@@ -1,0 +1,34 @@
+.breadcrubs__list{
+  display: flex;
+  align-items: center;
+}
+
+.breadcrubs__item{
+  display: flex;
+  align-items: center;
+}
+
+.breadcrubs__item:after{
+  content: "/";
+  color:gray;
+  font-size: 14px;
+}
+
+.breadcrubs__item:last-child:after{
+  display: none;
+
+}
+
+.breadcrubs__link{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9A9A9A;
+  text-decoration: none;
+}
+
+.breadcrubs__link--active {
+  font-weight: 700;
+}

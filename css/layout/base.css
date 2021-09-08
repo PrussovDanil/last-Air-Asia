@@ -1,0 +1,61 @@
+body{
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.42;
+  background: #001821;
+  margin: 0;
+}
+
+a{
+  color: inherit;
+}
+
+p{
+  margin-top: 0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+h1,h2,h3,h4{
+  margin: 0;
+  font-weight: normal;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+img{
+  display: block;
+  min-width: 100%;
+  
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+.main-page__wrapper{
+  background: url("../../img/1.png") center top no-repeat, url("../../img/2.png") center bottom no-repeat;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1140px;
+}

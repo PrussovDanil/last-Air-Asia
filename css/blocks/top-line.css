@@ -1,0 +1,17 @@
+.top-line{
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  padding-bottom: 30px;
+  background-image: url(../../img/headline1.png) ;
+
+}
+
+.top-line__container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
