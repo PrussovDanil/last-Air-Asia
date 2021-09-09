@@ -21,3 +21,12 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.partenrs__img{
+  filter: grayscale(100%);
+}
+
+.partenrs__img:hover{
+  filter: grayscale(0%);
+}
