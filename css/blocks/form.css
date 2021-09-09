@@ -14,6 +14,10 @@
   color: #1A1B1E; 
 }
 
+.form__input:hover{
+  border: 1px solid #F5170E;
+}
+
 .form__input::placeholder{
   color: #666;
 }
@@ -33,6 +37,7 @@
 
 .forms__controls--title{
   width: 40%;
+  font-size: 18px;
 }
 
 .form__buttons{

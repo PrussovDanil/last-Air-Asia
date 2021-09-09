@@ -1,0 +1,50 @@
+.central{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.central--asia{
+  opacity: 0;
+  animation: zoom .9s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom{
+  fron{
+    transform: scale(.7);
+
+  }
+
+  20%{
+    transform: scale(1.15);
+  }
+
+  40%{
+    transform: scale(.9);
+
+  }
+
+  60%{
+    transform: scale(1.1);
+  }
+
+  80%{
+    transform: scale(.95);
+  }
+
+  to{
+    opacity: 1;
+    transform: scale(1);
+
+
+
+  }
+}

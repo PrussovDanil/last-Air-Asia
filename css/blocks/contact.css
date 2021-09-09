@@ -11,10 +11,13 @@
   
 }
 
+
+
+
 .contact__dropdown-title{
-  font-size: 13px;
-  text-decoration: underline;
   position: relative;
+  font-size: 13px;
+  /* text-decoration: underline; */
 }
 
 .contact__dropdown-item{
@@ -51,7 +54,6 @@
   visibility: visible;
   opacity: 1;
 }
-
 
 .contact__desc{
   font-weight: normal;

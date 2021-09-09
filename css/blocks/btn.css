@@ -8,8 +8,26 @@
   font-weight: bold;
 }
 
+.btn__main{
+  text-align: center;
+  width: 168px;
+  border-radius: 35px;
+  padding: 18px 42px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.btn__main:hover{
+  background: #DA0100;
+}
+
 .btn--color--red{
   background: #F5170E;
+  color: #fff;
 }
 
 
@@ -26,12 +44,13 @@
 }
 
 .btn--color--black{
-  background: #2B2B2B;
+  background: #8E8E8E;
+  
   color: #fff;
 }
 
 
 .btn--color--black:hover{
-  background: #F5170E;
+  background: #2B2B2B;
   color: #fff;
 }
